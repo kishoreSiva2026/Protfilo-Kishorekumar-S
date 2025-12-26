@@ -1,0 +1,34 @@
+ .project-card {
+      background: #23272f;
+      border-radius: 18px;
+      box-shadow: 0 4px 24px rgba(30,144,255,0.12);
+      padding: 28px 22px;
+      margin-bottom: 32px;
+      transition: box-shadow 0.3s, transform 0.3s;
+      position: relative;
+      overflow: hidden;
+      animation: fadeInUp 1s;
+      color: #e0e0e0;
+      border: 1px solid #3a475c;
+    }
+    .project-card:hover {
+      box-shadow: 0 12px 48px rgba(30,144,255,0.22);
+      transform: translateY(-8px) scale(1.03);
+      border: 2px solid #1e90ff;
+    }
+    .project-card h5 {
+      color: #1e90ff;
+      font-weight: 700;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+    }
+    .project-card a {
+      color: #1e90ff;
+      font-weight: 600;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .project-card a:hover {
+      color: #e0e0e0;
+      text-decoration: underline;
+    }

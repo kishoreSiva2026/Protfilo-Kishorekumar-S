@@ -1,0 +1,35 @@
+#Main_Contrainer {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+#Main_Contrainer img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+#Main_Contrainer h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+#social_media {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+#social_media svg {
+  font-size: 2rem;
+  color: #54595e;
+  cursor: pointer;
+}
+
+#social_media svg:hover {
+  color: #0056b3;
+}

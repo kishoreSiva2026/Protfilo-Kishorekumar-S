@@ -1,0 +1,31 @@
+.section-title {
+      font-weight: 700;
+      color: #1e90ff;
+      margin-bottom: 20px;
+      font-size: 2rem;
+      letter-spacing: 1px;
+      animation: fadeInUp 1s;
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(40px);}
+      to { opacity: 1; transform: translateY(0);}
+    }
+    .skills-list span {
+      display: inline-block;
+      background: linear-gradient(90deg, #23272f 0%, #1e90ff 100%);
+      color: #fff;
+      border-radius: 20px;
+      padding: 8px 20px;
+      margin: 6px 10px 6px 0;
+      font-size: 1rem;
+      font-weight: 500;
+      box-shadow: 0 2px 8px rgba(30,144,255,0.12);
+      transition: transform 0.2s, box-shadow 0.2s;
+      cursor: pointer;
+      animation: fadeInUp 1s;
+    }
+    .skills-list span:hover {
+      transform: scale(1.12) rotate(-3deg);
+      box-shadow: 0 6px 24px rgba(30,144,255,0.22);
+      background: linear-gradient(90deg, #1e90ff 0%, #23272f 100%);
+    }
