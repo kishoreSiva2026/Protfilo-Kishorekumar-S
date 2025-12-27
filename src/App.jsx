@@ -22,7 +22,7 @@ function App() {
                     <td><Button  className='button' variant="contained"><Link to="/about">About</Link></Button></td>
                     <td><Button  className='button' variant="contained"><Link to="/project">Project</Link></Button></td>
                     <td><Button className='button' variant="contained"><Link to="/contact">Contact</Link></Button></td>
-                    <td><Button className='button' variant="contained"><Link to="/skills">Skills</Link></Button></td>
+                    {/* <td><Button className='button' variant="contained"><Link to="/skills">Skills</Link></Button></td> */}
 
                 </tr>
             </table>
